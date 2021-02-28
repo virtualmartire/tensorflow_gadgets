@@ -1,11 +1,11 @@
 ###### ULTRAFILTRO: A TensorFlow's gadget for computer vision's datasets' construction by Stefano Martire, www.stefanomartire.it ######
 
 """
-The buttafuoris are the dudes outside italian clubs with job to keep bad guys out. The buttafuori() function below transforms all the files in main_dir (already organised
-in subdir corresponding to classes) in the jpeg format, giving them comfy names too ("classname_counter").
+The buttafuoris are the dudes outside italian clubs with job to keep bad guys out. The buttafuori() function below transforms all the files in main_dir (!!!already
+organised in subdir corresponding to classes!!!) in the jpeg format, giving them comfy names too ("classname_counter").
 
-The ultrafiltro() function takes as input the aforesaid main_dir with all its files having exactly the jpeg extension and return a tensorflow dataset labelled with the
-names corresponding to each class (i.e. to each directory name). Labels are in one-hot format.
+The ultrafiltro() function takes as input the aforesaid main_dir with all its files having exactly the jpeg extension and return a tensorflow dataset labelled with
+the names corresponding to each class (i.e. to each directory name). Labels are in one-hot format.
 
 The configure_for_training() function prepares our dataset for training with canonical preprocessing techniques.
 """
